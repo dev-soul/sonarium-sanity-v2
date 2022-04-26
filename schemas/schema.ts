@@ -6,6 +6,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type';
 // We import object and document schemas
 import config, { configFeaturedPool, configNewsItem, configPoolFilter } from './config';
 import fantomToken from './fantomToken';
+import avalancheToken from './avalancheToken';
 import rinkebyToken from './rinkebyToken';
 import { lbp } from './lbp';
 
@@ -18,6 +19,7 @@ export default createSchema({
     types: schemaTypes.concat([
         config,
         fantomToken,
+        avalancheToken,
         rinkebyToken,
         lbp,
         configFeaturedPool,

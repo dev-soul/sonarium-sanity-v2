@@ -2,6 +2,7 @@ import { BsGear as icon } from 'react-icons/bs';
 
 export const NETWORKS = [
     { title: 'Fantom', value: 250 },
+    { title: 'Avalanche', value: 43114 },
     { title: 'Rinkeby', value: 4 },
 ];
 
